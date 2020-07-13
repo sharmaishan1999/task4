@@ -4,13 +4,12 @@
 # coding: utf-8
 
 # # Using MobileNet for our Face Recognition
-# 
+ 
 # ### Loading the MobileNet Model
 
 # Freeze all layers except the last 4, as we'll only be training the last 4
 
 # In[1]:
-
 
 from keras.applications import MobileNet
 
@@ -219,17 +218,3 @@ for i in range(0,10):
     cv2.waitKey(0)
 
 cv2.destroyAllWindows()
-
-# In[ ]:
-# In[ ]:
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
